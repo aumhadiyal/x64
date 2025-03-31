@@ -1,4 +1,10 @@
+fieldInteger EQU 0       ; 4-byte integer
+fieldShort EQU 4       ; 2-byte short
+fieldByte EQU 6       ; 1-byte flag
+fieldPadding EQU 7      ; 1-byte padding
+fieldLong EQU 8       ; 8-byte QWORD
 section .text
+
 global _start
 
 _start:
